@@ -1,0 +1,410 @@
+/* add your css styles here! */
+
+body {
+    position: relative;
+    background: black;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.header {
+	position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    display: block;
+}
+.nav ul {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+  }
+
+  .nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1rem 2vw;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+
+.intro {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+ 
+}
+
+.container {
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    padding: 5%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container p {
+    position: absolute;
+    top: 20%;
+    left: 11.5%;
+    display: flex;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 8vw;
+}
+
+.subject {
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    padding: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.subject-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subject-margin {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.subject-container {
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 2.5%;
+}
+
+.subject-img {
+    position: relative;
+
+}
+
+.subject-img img {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    margin-bottom: 2.5%;
+    border-radius: 10px;
+}
+
+.subject-img h1 {
+    position: absolute;
+    top: 38%;
+    display: flex;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 8vw;
+    color: black;
+}
+
+.plot {
+    position: absolute;
+    top: -3%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 7vw;
+    color: white;
+}
+
+.present-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5%;
+}
+
+.present-content p {
+    width: 33%;
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    color: #FFFFFF;
+}
+
+.present-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    width: 66%;
+}
+
+.present-image img {
+    border-radius: 10px;
+}
+
+.present-image-1 {
+    margin-bottom: 2.5%;
+}
+
+.past-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5%;
+}
+
+.past-content p {
+    width: 33%;
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    color: #FFFFFF;
+}
+
+.past-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    width: 66%;
+}
+
+.past-image img {
+    border-radius: 10px;
+}
+
+.future-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5%;
+}
+
+.future-content p {
+    width: 33%;
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    color: #FFFFFF;
+}
+
+.future-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    width: 66%;
+}
+
+.future-image img {
+    border-radius: 10px;
+}
+
+.future-image-1 {
+    margin-bottom: 2.5%;
+}
+
+.jetee-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jetee-content p {
+    width: 33%;
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    color: #FFFFFF;
+}
+
+.jetee-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    width: 66%;
+}
+
+.jetee-image img {
+    border-radius: 10px;
+}
+
+.jetee-image-1 {
+    margin-bottom: 2.5%;
+}
+
+.themes {
+    position: absolute;
+    top: -10%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 7vw;
+    color: white;
+}
+
+.themes-container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 7vw;
+    color: white;
+}
+
+.themes-container p {
+width: 100%;
+font-family: 'Fjalla One';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5vw;
+color: #FFFFFF;
+}
+
+.themes-image {
+   display: flex;
+   justify-content: center;
+}
+
+.themes-image img{
+    width: 45%;
+    margin: 2.5%;
+    border-radius: 10px;
+}
+
+.production {
+    position: absolute;
+    top: -10%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 7vw;
+    color: white;
+}
+
+
+.production-header{
+    display: flex;
+    justify-content: center;
+}
+
+.production-header h1 {
+    width: 60%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 7vw;
+    color: white;
+}
+
+.production-container p {
+width: 100%;
+text-align: center;
+font-family: 'Fjalla One';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5vw;
+color: #FFFFFF;
+}
+
+.production-image {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.production-image img{
+    width: 45%;
+    margin: 2.5%;
+    border-radius: 10px;
+}
+
+.legacy {
+    position: absolute;
+    top: -10%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 7vw;
+    color: white;
+}
+
+.legacy-container {
+    display: flex;
+    justify-content: center;
+    margin: 2.5%;
+}
+
+.legacy-container h1 {
+    width: 45%;
+    margin: 2.5%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 7vw;
+    color: white;
+}
+
+.legacy-container p {
+    width: 45%;
+    margin: 2.5%;
+    text-align: center;
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    color: #FFFFFF;
+    }
+
+
+
+.legacy-image {
+    display: flex;
+    }
+
+.legacy-image img {
+    width: 45%;
+    margin: 2.5%;
+    border-radius: 10px;
+}
+
+@media (max-width: 450px) {
+    .nav li a {
+        padding: 1rem 2vw;
+        font-size: 1rem;
+    }
+}
